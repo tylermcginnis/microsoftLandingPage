@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "segoe ui";
+    src: url("segoeui.ttf") format('truetype');
+}
+
+html{
+	font-size: 16px;
+}
+
+body{
+	background: #00A550;
+	color: white; 
+	font-family:"segoe ui", Arial, Verdana, sans-serif;
+}
+
+#container{
+	max-width: 850px;
+	max-height: 1033px;
+	margin: 5% auto;  
+	width: 90%; 
+}
+
+#headline {
+	font-size: 4.6875em;
+	margin-top: 2.11111111%;
+	position: relative;
+	overflow: hidden; /* gives height to this container */ 
+}
+
+#slogan {
+	float: left;
+}
+
+#laptop{
+	background: url(laptop.png) no-repeat;
+	width: 310px;
+	height: 250px;
+	margin-left: 3.7037037%;
+	float: left;
+}
+
+#question_container{
+	width: 53.63636363634%;
+	font-size: 2.625em;
+	letter-spacing: 2px;
+}
+
+#feedback_container{
+	font-size: 2.625em;
+	margin-top: 9.039010466%;
+}
+#feedback{
+	float: left; 
+}
+
+#feedback {
+	float: left;
+}
+
+#disclaimer{
+	font-size: .9375em; 
+	margin-top: 18.18181818%; 
+	margin-bottom: 20px; 
+}
+
+#footer_container{
+	margin-top: 4.75737%; 
+	font-size: .9375em; 
+}
+
+#qualtrics_container{
+	margin-top: 2.72727272723em;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1150px){
+	#headline {
+		font-size: 4em;
+	}
+	#question_container{
+		font-size: 2em;
+	}
+	#feedback_container{
+		font-size: 2em;
+	}
+	#disclaimer{
+		font-size: .9375em; 
+	}
+	#footer_container{
+		font-size: .9375em; 
+	}
+}
+
+
+@media screen and (max-width: 910px){
+	#laptop{
+		background: url(laptop_small.png) no-repeat;
+		width: 189px;
+	}
+	#headline {
+		font-size: 4em;
+	}
+	#question_container{
+		font-size: 2em;
+		width: 58.63636363634%;
+	}
+	#feedback_container{
+		font-size: 2em;
+	}
+	#disclaimer{
+		font-size: .9375em; 
+	}
+	#footer_container{
+		font-size: .9375em; 
+	}
+}
+
+
+@media screen and (max-width: 700px){
+	html{
+		margin: 0;
+		padding: 0;
+	}
+	#container{
+		max-width: 600px;
+		margin-left: 0px; 
+	}
+	#headline {
+		font-size: 3em;
+		margin-left: .5%;
+	}
+	#question_container{
+		font-size: 2em;
+	}
+	#feedback_container{
+		font-size: 2em;
+	}
+	#disclaimer{
+		font-size: .9375em; 
+	}
+	#footer_container{
+		font-size: .9375em; 
+	}
+}
+
+
+@media screen and (max-width: 580px){
+
+	#container {
+		max-width: 400px;
+		margin: 0px auto;
+	}
+	#headline {
+		width: 100%; 
+		font-size: 3.1em;
+	}
+	#question_container{
+		width: 100%;
+		text-align: center; 
+	}
+	#laptop {
+		margin: 20px auto;
+		width: 200px;
+		float: none;
+	}
+	#feedback_container {
+		margin: 50px auto;
+		width: 307px;
+	}
+	#logo {
+		width: 250px;
+		margin: 0px auto;
+	}
+	#slogan {
+		float: none;
+		margin: 0px auto;
+		width: 291px;
+	}
+	#qualtrics{
+		text-align: center; 
+	}
+}
